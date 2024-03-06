@@ -1,7 +1,7 @@
 let raceNumber = Math.floor(Math.random() * 1000);
 
 const registeredEarly = false; // Change this to true to test early registration
-const age = 19; // Change this to test different ages
+const age = 16; // Change this to test different ages
 
 if (age > 18 && registeredEarly) {
     raceNumber += 1000;
